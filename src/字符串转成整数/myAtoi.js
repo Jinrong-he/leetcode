@@ -2,6 +2,8 @@
  * @param {string} s
  * @return {number}
  */
+
+// todo 永动机！
 var myAtoi = function(s) {
     const number= parseInt(s,10);
     if(isNaN(number)){
