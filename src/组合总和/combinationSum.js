@@ -3,6 +3,7 @@
  * @param {number} target
  * @return {number[][]}
  */
+//  回溯+剪枝
 var combinationSum = function(candidates, target) {
     function findAll(sum,arrange){
         if(sum===target){
